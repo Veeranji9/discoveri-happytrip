@@ -15,7 +15,7 @@ pipeline {
 				powershell 'java -version'
 				powershell 'mvn -version'
 				powershell 'mvn clean package'
-				archiveArtifacts 'target\*.war'
+				archiveArtifacts 'target/*.war'
 
 			}
 		}
