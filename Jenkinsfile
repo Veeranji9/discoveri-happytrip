@@ -19,12 +19,12 @@ pipeline {
 
 			}
 		}
-		stage ('Deploy To Prod'){
+		stage ('Deploy to Production'){
   	input{
    		 message "Do you want to proceed for production deployment?"
 	  }
     	steps {
-                sh 'echo "Deploy into Prod"'
+                sh 'echo "Deploy into Production"'
 
               }
         }
